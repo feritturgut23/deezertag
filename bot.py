@@ -28,8 +28,8 @@ async def start(event):
   await event.reply("**Etiketleme Botu**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilir ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Mentiondavet_Bot?startgroup=a'),
-                      Button.url('📣 Support', 'https://t.me/Sohbetdestek'),
-                      Button.url('👮‍♂️ Sahibim', 'https://t.me/Mahoaga')]
+                      Button.url('📣 Support', 'https://t.me/UtagOnline'),
+                      Button.url('👮‍♂️ Sahibim', 'https://t.me/Baykaoss')]
                     ),
                     link_preview=False
                    )
@@ -39,8 +39,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Mentiondavet_Bot?startgroup=a'),
-                       Button.url('📣 Support', 'https://t.me/Sohbetdestek'),
-                      Button.url('👮‍♂️ Sahibim', 'https://t.me/Mahoaga')]
+                       Button.url('📣 Support', 'https://t.me/UtagOnline'),
+                      Button.url('👮‍♂️ Sahibim', 'https://t.me/Baykaoss')]
                     ),
                     link_preview=False
                    )
