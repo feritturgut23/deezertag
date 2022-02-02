@@ -28,18 +28,19 @@ async def start(event):
   await event.reply("**Etiketleme Botu**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilir ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Deezertaggerbot?startgroup=a'),
-                      Button.url('📣 Support', 'https://t.me/DeezerMusicFilm'),
+                      Button.url('📣 Support', 'https://t.me/SohbetKirmiziKose'),
                       Button.url('👮‍♂️ Sahibim', 'https://t.me/magandasahip')]
+                      
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Mention Tagger Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyerek ve /bitir yazarak etiketleme işlemi biter. 🤗"
+  helptext = "**Deezer Tag Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyerek ve /bitir yazarak etiketleme işlemi biter. 🤗"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Deezertaggerbot?startgroup=a'),
-                       Button.url('📣 Support', 'https://t.me/DeezerMusicFilm'),
+                       Button.url('📣 Support', 'https://t.me/SohbetKirmiziKose'),
                       Button.url('👮‍♂️ Sahibim', 'https://t.me/magandasahip')]
                     ),
                     link_preview=False
